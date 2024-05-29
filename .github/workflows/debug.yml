@@ -21,4 +21,4 @@ jobs:
           echo "Draft: ${{ github.event.pull_request.draft }}"
           echo "Locked: ${{ github.event.pull_request.locked }}"
           echo "Active lock reason: ${{ github.event.pull_request.active_lock_reason }}"
-          echo "Author Association: ${{ github.event.issue.author_association }}"
+          echo "Author Association: ${{ github.event.pull_request.author_association }}"
